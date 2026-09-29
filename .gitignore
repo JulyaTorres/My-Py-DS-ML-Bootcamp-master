@@ -1,0 +1,16 @@
+# Ignorar todas as pastas/arquivos da raiz
+/*
+
+# Permitir minha pasta de anotações
+!/00-Minhas_anotacoes/
+!/00-Minhas_anotacoes/**
+
+# Ignorar arquivos CSV
+*.csv
+
+# Ignorar checkpoints do Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Manter o próprio .gitignore
+!/.gitignore
